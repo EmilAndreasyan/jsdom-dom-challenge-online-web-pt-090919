@@ -6,8 +6,8 @@ const pause = document.getElementById('pause');
 const commentInput = document.getElementById('comment-input')
 
 plus.addEventListener('click', () => {
-  let counter = document.getElementById('counter');
-  return counter.value + 1
+  let counter = document.getElementById('counter').value;
+  return (counter + 1).toString()
 })
 
 minus.addEventListener('click', () => {

@@ -8,7 +8,7 @@ const commentInput = document.getElementById('comment-input')
 plus.addEventListener('click', (ev) => {
   let counter = document.getElementById('counter').value;
   ev.target.value.backgroundColor = 'red';
-  alert("you clicked")
+  alert(ev.key)
 })
 
 minus.addEventListener('click', () => {

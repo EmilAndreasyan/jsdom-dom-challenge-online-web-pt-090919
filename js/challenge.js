@@ -1,4 +1,4 @@
-const counter = document.getElementById('counter');
+let counter = document.getElementById('counter');
 const minus = document.getElementById('minus');
 const plus = document.getElementById('plus');
 const heart = document.getElementById('heart');

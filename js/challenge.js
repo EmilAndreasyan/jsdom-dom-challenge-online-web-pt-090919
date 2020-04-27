@@ -5,9 +5,9 @@ const heart = document.getElementById('heart');
 const pause = document.getElementById('pause');
 const commentInput = document.getElementById('comment-input')
 
-plus.addEventListener('click', () => {
+plus.addEventListener('click', (ev) => {
   let counter = document.getElementById('counter').value;
-  return (counter + 1).toString()
+  ev.target.color = 'red';
 })
 
 minus.addEventListener('click', () => {

@@ -6,6 +6,7 @@ const pause = document.getElementById('pause');
 const commentInput = document.getElementById('comment-input')
 
 plus.addEventListener('click', () => {
+  let counter = document.getElementById('counter');
   counter.value + 1
 })
 

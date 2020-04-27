@@ -7,7 +7,7 @@ const commentInput = document.getElementById('comment-input')
 
 plus.addEventListener('click', () => {
   let counter = document.getElementById('counter');
-  counter.value + 1
+  return counter.value + 1
 })
 
 minus.addEventListener('click', () => {

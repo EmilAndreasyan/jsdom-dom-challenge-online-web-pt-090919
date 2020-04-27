@@ -7,7 +7,7 @@ const commentInput = document.getElementById('comment-input')
 
 plus.addEventListener('click', (ev) => {
   let counter = document.getElementById('counter').value;
-  ev.target.color = 'red';
+  ev.target.backgroundColor = 'red';
 })
 
 minus.addEventListener('click', () => {
